@@ -1,4 +1,4 @@
-// Copyright (c) 2009-2010 Satoshi Nakamoto
+/ Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -2790,7 +2790,7 @@ bool InitBlockIndex() {
         printf("%s\n", hash.ToString().c_str());
         printf("%s\n", hashGenesisBlock.ToString().c_str());
         printf("%s\n", block.hashMerkleRoot.ToString().c_str());
-        assert(block.hashMerkleRoot == uint256("0xecf754c2d82870d60b2992631e20d546df17d403acd257529675a80c95c5b19b"));
+        assert(block.hashMerkleRoot == uint256("0x6eeac0c6558b86c02566c34bdbb04f1f5bce828e8cafe13089a644965d4c24dc"));
 
 
 if (true && block.GetHash() != hashGenesisBlock)
