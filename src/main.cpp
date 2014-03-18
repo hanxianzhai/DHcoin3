@@ -2763,7 +2763,7 @@ bool InitBlockIndex() {
         //   vMerkleTree: 97ddfbbae6
 
         // Genesis block
-        const char* pszTimestamp = "By reading we enrich the mind; by conversation we polish it.";
+        const char* pszTimestamp = "By reading we enrich the mind, by conversation we polish it";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
